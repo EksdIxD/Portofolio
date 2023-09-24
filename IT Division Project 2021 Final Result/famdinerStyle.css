@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen {
+    
+}
+
+.header{
+    height: 8vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 102), rgb(45, 159, 197));
+}
+
+.header .logo {
+    color: white;
+    height: 100px;
+    width: 300px;
+    /* align-self: center;
+    justify-self: center; */
+}
+
+.header .button button{
+    background: none;
+    border-radius: 30px;
+    border: 0px;
+}
+
+.header .button .register{
+    color:white;
+    background-color: #24252a ;
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.header .button .login{
+    color:white;
+    background-color: #24252a ;
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
+.navigation {
+    background-color: #24252a;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    /* text-decoration: none; */
+}
+
+.navigation a {
+    padding: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation ul {
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: left;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navigation ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #dddd;
+}
+
+.navigation ul li a:hover {
+    display: block;
+    color: black;
+    background: cyan;
+    /* box-shadow: inset 0px 0px 5px #000;    */
+}
+
+.navigation ul li .dropdown {
+    display: none;
+}
+
+.navigation ul li:hover .dropdown {
+    display: block;
+    background: black;
+    position: absolute;
+    /* padding: 10px; */
+}
+
+.navigation ul li:hover .dropdown li {
+    display: block;
+}
+
+.navigation ul li:hover .dropdown li a {
+    padding: 10px;
+    /* border-radius: 5px; */
+    margin-bottom: 5px;
+}
+
+.navigation ul li:hover .dropdown li a:hover {
+    background: cyan;
+}
+
+/* .navigation a {
+    color: white;
+}
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+,.navigation ul li .homebutton{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+} */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    height: 70vh;
+    color: white;
+    background: rgba(0,0,0,0.4)url(./images/background_home.jpg);    
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+.home .openmenu {
+    color:white;
+    background-color: #24252a ;
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 30px;
+}
+
+.footer {
+    height: 10vh;
+    background-color: #24252a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.footer img {
+    height: 2vh;
+    width: 2vh;
+}
+
+.footer .sosmed {
+    height: 3vh;
+    width: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-bottom{
+    /* text-align: center;
+    align-self: flex-end; */
+}
