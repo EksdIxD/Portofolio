@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 15px;
+}
+
+/* .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} */
+
+.loginregister{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: fit-content;
+}
+
+.logo img{
+    width: fit-content;
+    height: fit-content;
+}
+
+.header .button button{
+    background: none;
+    border-radius: 30px;
+    border: 0px;
+}
+
+.header .button .login{
+    display: flex;
+    color:white;
+    background-color: #38abab ;
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.register{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 15px;
+    color: black;
+}
+
+.navigation {
+    background-color: white;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navigation a {
+    padding: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation ul {
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: left;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navigation ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.navigation ul li a:hover {
+    display: block;
+    color: black;
+    background: white;
+    /* box-shadow: inset 0px 0px 5px #000;    */
+}
+
+.navigation ul li .dropdown {
+    display: none;
+}
+
+.navigation ul li:hover .dropdown {
+    display: block;
+    background: white;
+    color: black;
+    position: absolute;
+    /* padding: 10px; */
+}
+
+.navigation ul li:hover .dropdown li {
+    display: block;
+}
+
+.navigation ul li:hover .dropdown li a {
+    padding: 10px;
+    /* border-radius: 5px; */
+    margin-bottom: 5px;
+}
+
+.navigation ul li:hover .dropdown li a:hover {
+    background: white;
+    color: #38abab;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    height: 79vh;
+    color: white;
+    background: rgba(0,0,0,0.4)url(./assets/home.jpg);    
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+.home .openmenu {
+    color:white;
+    background-color: #38abab ;
+    border: 0;
+    padding: 8px 15px;
+    /* border-radius: 30px; */
+}
+
+.footer {
+    height: 10vh;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.footer img {
+    height: 2vh;
+    width: 2vh;
+}
+
+.footer .sosmed {
+    height: 3vh;
+    width: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 600px){
+    body{
+        color: blue;
+    }
+}   
