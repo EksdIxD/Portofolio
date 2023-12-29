@@ -1,0 +1,5 @@
+Pertemuan 10
+-------------
+> Face detection vs Face Recognition
+> Face Detection with Classifier Haarcascade 
+> Face Recognition with LBPHFaceRecognizer
